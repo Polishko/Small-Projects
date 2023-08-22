@@ -1,2 +1,2 @@
 # Small-Projects
-small beginner level projects
+small beginner level projects from the internet
