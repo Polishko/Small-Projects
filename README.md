@@ -8,5 +8,5 @@ This small project is a sligthly adapted version from that provided by @free_cod
 Another small project from @free_code_camp created by @kyling18. It aims to generate new text using an existing text based on the weight of words in the text and using Markov Chain relationship for the purpose. The weight is indirectly determined by the count of the words in the text. Here I try to practice using classes and I also learn a little about new concepts such as vertices, nodes, edges and graph construction.
 
 - The initial version is the basic code, where the random library is used to select words based on their weights, but there's still little meaning in the final text.
-- The second version mainly targets song text, introduces a more sofisticated way of taking text files from directories without hard-coding the file name.
+- The second version mainly targets song text, introduces a more sofisticated way of taking text files from directories without hard-coding the file name. The songs in the song list are those selected by the author and I will introduce new ones in another version.
 
