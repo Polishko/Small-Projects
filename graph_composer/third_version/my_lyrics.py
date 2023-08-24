@@ -21,6 +21,7 @@ def add_lyrics(artists_list, max_song_count):  # Write lyrics of given count of 
             os.mkdir(path)
         except OSError:
             continue
+            
     # add songs for each artist
     for name in artists_list:
         path = f"{parent_dir}/{name}"
@@ -32,7 +33,7 @@ def add_lyrics(artists_list, max_song_count):  # Write lyrics of given count of 
                 with open(os.path.join(path, f"{file_name}.txt"), "w") as f:
                     lyrics = song.lyrics
                     f.write(lyrics)
-        except:
+        except: # in case of encountering some error while getting the songs
             pass
 
 
